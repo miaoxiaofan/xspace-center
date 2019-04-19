@@ -3,24 +3,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>xspace-base</artifactId>
+        <artifactId>common-center</artifactId>
         <groupId>com.wmiao.xsapce</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>common-center</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>common-dao</artifactId>
 
-    <name>common-center</name>
+    <name>common-dao</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
-    <modules>
-        <module>common-cache</module>
-        <module>common-job</module>
-        <module>common-search</module>
-        <module>common-dao</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
