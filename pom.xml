@@ -19,6 +19,8 @@
     <module>goods-center</module>
     <module>xspace-web</module>
     <module>management-web</module>
+    <module>config-center</module>
+    <module>monitor-center</module>
   </modules>
 
   <name>xspace-base</name>
